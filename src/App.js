@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +23,23 @@ function App() {
 }
 
 export default App;
+ */
+
+import React from 'react'
+import Header from './Header'
+import Body from './Body'
+import Summary from './Summary'
+import Market from './Market'
+
+const App = () => {
+  return (
+    <>
+    <Header/>
+    <Body/>
+    <Summary/>
+    <Market/>
+    </>
+  )
+}
+
+export default App

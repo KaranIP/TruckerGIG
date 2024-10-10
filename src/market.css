@@ -1,0 +1,60 @@
+.marketplace
+{
+    background-color: rgb(255, 247, 209);
+    color: rgb(29, 28, 28);
+}
+.market
+{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.head
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.head h1
+{
+    color:rgb(255, 147, 24) ;
+}
+.underline
+{
+    color: rgb(29, 28, 28);
+    font-size: 1.4rem;
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    border-radius: 10px;
+    height: 5px;
+    background-color: rgb(255, 147, 24); /* Color of the underline */
+    width:50px;
+     /* Adjust this value for the length of the underline */
+  }
+.market div
+{
+    padding-left: 100px;
+    margin: 20px 30px;
+}
+.images
+{
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(255, 147, 24);
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.market h4
+{
+    margin-top: 15px;
+}

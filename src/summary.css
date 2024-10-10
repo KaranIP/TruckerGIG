@@ -1,0 +1,34 @@
+.section
+{
+    font-size: 1.5rem;
+}
+.section h1
+{
+    margin: 25px;
+    color: rgb(255, 147, 24);
+    text-align: center;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.grid-container div
+{
+    border-left: 1px solid rgb(255, 147, 24);
+    border-right: 1px solid rgb(255, 147, 24);
+    border-bottom: 1px solid rgb(255, 147, 24);
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.grid-container .grid-list
+{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.grid-list h4
+{
+    color: rgb(29, 28, 28);
+}
