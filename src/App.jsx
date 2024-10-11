@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import Header from './Header'
 import Body from './Body'
 import Summary from './Summary'
@@ -15,4 +15,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App */
